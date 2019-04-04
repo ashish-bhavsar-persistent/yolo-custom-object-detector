@@ -1,14 +1,14 @@
 import glob, os
 
 
-dataset_path = '/path/to/Dataset/images'
+dataset_path = 'Dataset/images'
 
 # Percentage of images to be used for the test set
 percentage_test = 10;
 
 # Create and/or truncate train.txt and test.txt
-file_train = open('train.txt', 'w')  
-file_test = open('test.txt', 'w')
+file_train = open('custom/train.txt', 'w')
+file_test = open('custom/test.txt', 'w')
 
 # Populate train.txt and test.txt
 counter = 1  
